@@ -64,3 +64,8 @@ vnoremap / /\v
 let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+
+""set file type indentation
+autocmd FileType * set tabstop=4|set shiftwidth=4|set noexpandtab  
+autocmd FileType python set tabstop=2|set shiftwidth=2|set expandtab  
+autocmd FileType ruby set tabstop=2|set shiftwidth=2|set expandtab
