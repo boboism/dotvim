@@ -13,9 +13,9 @@ set number " show line numbers
 "" pathogen is called before enabling filetype detection,
 "" so putting them at the top of vimrc file.
 runtime bundle/vim-pathogen/autoload/pathogen.vim
-"call pathogen#infect()
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+call pathogen#infect()
+"call pathogen#runtime_append_all_bundles()
+"call pathogen#helptags()
 
 "" set filetype check on
 :filetype plugin indent on
