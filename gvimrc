@@ -27,9 +27,8 @@ set guifont=Menlo:h18
 set sessionoptions+=unix,slash
 
 "" encodings configure
-set fileencoding=utf-8
 set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,gb2312,cp936
+set fileencodings=utf-8,gbk,gb2312,cp936
 
 "" set white space 
 "set nowrap
