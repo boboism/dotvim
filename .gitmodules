@@ -59,6 +59,6 @@
   url = https://github.com/slim-template/vim-slim.git
   ignore = dirty
 [submodule "bundle/scss-syntax"]
-	path = bundle/scss-syntax
-	url = https://github.com/cakebaker/scss-syntax.vim.git
+  path = bundle/scss-syntax
+  url = https://github.com/cakebaker/scss-syntax.vim.git
   ignore = dirty
